@@ -1,0 +1,63 @@
+Reverse an array:
+
+int a[]={7,5,1,2,3}
+for(int i=a.lenght-1;i>=0;i=i-1)
+{
+System.out.println(a[i]);
+}
+
+Print an even number which are inside an odd inside:
+
+int a[]={7,4,2,1,3,6,8,9,10,12,11,13}
+for(int i=0;i<a.length;i=i+1)
+{
+if(i%2==1)
+{
+if(a[i]%2==0)
+{
+System.out.println(a[i]);
+}
+}
+}
+
+Find and replace the given number: 
+
+int a[]={7,4,1,3,2};
+int find=1;
+int replace=11;
+for(int i=0;i<a.length;i=i+1)
+{
+if(a[i]==find)
+{
+a[i]=Replace;
+}
+}
+for(int i:a)
+{
+System.out.println(i);
+}
+
+
+find index of given number:
+
+int a[]={7,4,1,3,2}
+int search=2;
+for(int=0;i<a.length;i=i+1)
+{
+if(a[i]==search
+{
+System.out.println(i);
+}
+}
+
+2D Array: printing all elements:
+
+int a[] []={1,2,3},{4,5,6},{7,8,9}
+for(int i=0;i<a.length;i=i+1)
+{
+for(int j=0;j<a[i].length;j=j+1)
+{
+System.out.println(a[i][j]);
+}
+}
+

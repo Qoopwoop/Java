@@ -1,0 +1,30 @@
+public class Electricbilling
+{
+public static void main(String args[])
+{
+Electricbilling eb=new Electricbilling();
+eb.usage(413);
+double upto500(double usage)
+{
+for(i=1;i<=1000;i++)
+{
+switch(usage)
+{
+case 1<=100:
+System.out.println("Charges free");
+break;
+case 101<=200:
+System.out.println(usage*2.5);
+break;
+case 200<=400:
+System.out.println(usage*5.5);
+break;
+case 400<=1000:
+System.out.println(usage*7.5);
+break;
+}
+return usage;
+}
+}
+}
+}
